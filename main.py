@@ -82,11 +82,11 @@ def main():
             message += '\n\n'
         print(message)
 
-        # send_email(
-        #         to_email='jgarza9788@gmail.com',
-        #         from_email='jgarza9788@gmail.com',
-        #         message=message
-        #         )
+        send_email(
+                to_email='jgarza9788@gmail.com',
+                from_email='jgarza9788@gmail.com',
+                message=message
+                )
 
 if __name__ == "__main__":
     main()

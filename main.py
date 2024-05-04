@@ -72,6 +72,7 @@ def main():
     # print(len(dfdiff))
 
     if len(dfdiff) > 0 :
+        print(dfdiff)
         ndata.to_csv(data_path,index=False)
 
         message = URL_RSS + '\n\n'

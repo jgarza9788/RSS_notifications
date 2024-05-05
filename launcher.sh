@@ -1,3 +1,3 @@
 cd ~/GitHub/RSS_Notifications/
-source bin/activate
+source ./env/bin/activate
 python main.py
